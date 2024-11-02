@@ -1,0 +1,42 @@
+.formulario-login{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+
+    .inputs{
+        height: 8vh;
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 0px 10px;
+        font-size: 20px;
+        font-family: "Inter", serif;
+        color: rgb(112, 103, 103);
+        border-radius: 8px;
+        border: solid 0.1px rgb(75, 72, 72);
+    }
+
+    .remember{
+        display: flex;
+        color: rgb(75, 72, 72);
+        font-family: "Inter", serif;
+        padding: 10px 10px 30px 10px;
+        gap: 10px;
+    }
+
+    .conecte-se{
+        height: 8vh;
+        width: 100%;
+        border-radius: 8px;
+        font-size: 20px;
+        font-family: "Inter", serif;
+        color: var(--primary-color-white);
+        background-color: var(--primary-color-blue);
+    }
+
+    .conecte-se:hover{
+        background-color: var(--secondary-color-blue);
+    }
+}

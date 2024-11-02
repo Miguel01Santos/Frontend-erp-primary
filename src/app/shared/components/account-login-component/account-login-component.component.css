@@ -1,0 +1,38 @@
+/*Estilos relacionados as caixas que contem os icones de vinculos de contas com redes sociais*/
+
+/*container principal da aplicação*/
+.social-media-connections{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 25px;
+}
+
+/*dimensões de todas as caixas*/
+.box-icon{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: solid 0.1px rgb(75, 72, 72);
+    background-color: var(--primary-color-white);
+    cursor: pointer;
+}
+
+/*caixa do facebook*/
+.icon-facebook{
+    background-color: rgb(37, 74, 225);
+    font-size: 30px;
+    color: white;
+}
+
+/*caixa do linkedin*/
+.icon-linkedin{
+    color: white;
+    font-size: 25px;
+    background-color: var(--primary-color-blue);
+}
