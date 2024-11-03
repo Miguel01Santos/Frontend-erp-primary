@@ -13,14 +13,14 @@
         padding: 0px 10px;
         font-size: 20px;
         font-family: "Inter", serif;
-        color: rgb(112, 103, 103);
+        color: var(--secondary-color-silver);
         border-radius: 8px;
-        border: solid 0.1px rgb(75, 72, 72);
+        border: solid 0.1px var(--secondary-color-silver);
     }
 
     .remember{
         display: flex;
-        color: rgb(75, 72, 72);
+        color: var(--secondary-color-silver);
         font-family: "Inter", serif;
         padding: 10px 10px 30px 10px;
         gap: 10px;
@@ -34,6 +34,7 @@
         font-family: "Inter", serif;
         color: var(--primary-color-white);
         background-color: var(--primary-color-blue);
+        border: solid 0.1px var(--secondary-color-silver);
     }
 
     .conecte-se:hover{

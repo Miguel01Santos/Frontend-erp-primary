@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+/*variaveis de ambiente global*/
+:root {
+    --primary-color-blue: #342bb0;
+    --secondary-color-blue: #040536;
+    --primary-color-white: #ffffff;
+    --secondary-color-white: #E6E6E6 ;
+    --primary-color-black: #000000;
+    --primary-color-silver: #ffffff;
+    --secondary-color-silver: rgb(75, 72, 72); ;
+}
+
+/*configurações das paginas da aplicação*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
