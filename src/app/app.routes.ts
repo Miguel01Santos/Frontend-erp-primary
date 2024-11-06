@@ -4,10 +4,12 @@ import { LoginPageComponentComponent } from './pages/login-page-component/login-
 import { LicensePurchaseComponentComponent } from './pages/license-purchase-component/license-purchase-component.component';
 
 export const routes: Routes = [
-    {
-        path: '', component: LoginPageComponentComponent
-    },
-    {
-        path: 'routeLicense', component: LicensePurchaseComponentComponent
-    }
+  {
+    path: '',
+    component: LoginPageComponentComponent,
+  },
+  {
+    path: 'routeLicense',
+    component: LicensePurchaseComponentComponent,
+  },
 ];

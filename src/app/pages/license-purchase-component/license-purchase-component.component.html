@@ -1,1 +1,38 @@
-<p>license-purchase-component works!</p>
+<section class="container-license-page">
+    <header class="header-license-page">
+        <section class="logtipo-license-page">
+          <img
+            src="https://stssoftwares.com.br/wp-content/uploads/2024/10/logotipoSTSbrancoequenao.png"
+            alt="logotipo-sts-softwares"
+            class="logotipo"
+            height="200px"
+          />
+        </section>
+        <div class="button-entrar">
+            <button class="button-enter" routerLink="/">Entrar</button>
+        </div>
+      </header>
+      <main class="main-license-page">
+        <div class="title-license-page">
+            <h1>Escolha o plano ideal para você</h1>
+            <p>Comece com o pé direito. Oferecemos 30 dias para pedir reembolso, ou seja, risco zero para você.</p>
+        </div>
+        <section class="content-license-page">
+            <div class="card-license">
+                <app-start-license-component></app-start-license-component>
+            </div>
+            <div class="card-license">
+                <app-premium-license-component></app-premium-license-component>
+            </div>
+            <div class=" pro">
+                <app-pro-license-component></app-pro-license-component>
+            </div>
+            <div class="card-license">
+                <app-business-license-component></app-business-license-component>
+            </div>
+        </section>
+      </main>
+      <footer class="footer-tela-login">
+        <p class="version-project">version PATH 1.0.0</p>
+      </footer>
+</section>

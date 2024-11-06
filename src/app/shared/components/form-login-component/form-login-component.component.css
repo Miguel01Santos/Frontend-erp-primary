@@ -35,6 +35,7 @@
         color: var(--primary-color-white);
         background-color: var(--primary-color-blue);
         border: solid 0.1px var(--secondary-color-silver);
+        cursor: pointer;
     }
 
     .conecte-se:hover{
